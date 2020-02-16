@@ -16,11 +16,6 @@ struct Map {
     entity_grid  : [[ MapToken; 10 ]; 10],
 }
 
-/**
- * 2d map creation
- */
-
-
 fn main() {
     let no_entity = MapToken{
         id :1,
